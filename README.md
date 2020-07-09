@@ -9,13 +9,13 @@ An experiment using Typescript and Channels to auto-throttle many processes
 1. get the latest version of typescript: `npm install -g typescript`
 2. created repo on github and initialized with README; then cloned.
 3. In cloned directory, remove or move the README. The next command overwrites it.
-4. Now run command to start up a TS React (see links):
+4. Now run this command, in the parent folder to the cloned folder, to start up a TS React (see links):
 ```
-$ yarn create react-app local-context-app --template typescript
+$ yarn create react-app experiment-channels-ts --template typescript
 ```
 5. Test:
 ```
-$ cd local-context-app
+$ cd experiment-channels-ts
 $ yarn start
 ```
 6. Next added typescript support:
